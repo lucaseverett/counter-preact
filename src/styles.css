@@ -1,0 +1,8 @@
+@import "modern-normalize/modern-normalize.css";
+
+html,
+body,
+#app {
+  height: 100%;
+  font-family: monospace;
+}

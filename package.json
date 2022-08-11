@@ -1,0 +1,35 @@
+{
+  "name": "counter-preact",
+  "scripts": {
+    "build": "vite build",
+    "coverage": "vitest run --coverage",
+    "dev": "vite",
+    "format": "prettier --write 'index.html' 'src/**/*.{css,js,jsx}'",
+    "lint": "eslint --ext .js,.jsx src",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@preact/signals": "^1.0.3",
+    "modern-normalize": "^1.1.0",
+    "preact": "^10.11.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/preact": "^3.2.2",
+    "@testing-library/user-event": "^14.4.3",
+    "@vitest/coverage-istanbul": "^0.23.2",
+    "@vitest/ui": "^0.23.2",
+    "eslint": "^8.23.1",
+    "eslint-config-preact": "^1.3.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jsdom": "^20.0.0",
+    "postcss-preset-env": "^7.8.1",
+    "prettier": "^2.7.1",
+    "vite": "^3.1.0",
+    "vitest": "^0.23.2"
+  }
+}

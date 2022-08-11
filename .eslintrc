@@ -1,0 +1,11 @@
+{
+  "extends": ["eslint:recommended", "preact", "prettier"],
+  "ignorePatterns": ["*.test.*"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "root": true,
+  "rules": {
+    "jest/no-deprecated-functions": "off"
+  }
+}
